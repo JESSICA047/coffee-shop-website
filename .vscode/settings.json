@@ -1,4 +1,5 @@
 {
   "cSpell.ignoreWords": ["adipisicing"],
-  "cSpell.words": ["amet"]
+  "cSpell.words": ["amet"],
+  "liveServer.settings.port": 5501
 }

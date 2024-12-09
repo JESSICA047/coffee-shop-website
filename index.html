@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,7 +16,7 @@
 <body>
     <!-- header section starts here -->
     <header class="header">
-        <!-- <div id="menu-btn" class="fa-solid fa-bars"></div> -->
+        <div id="menu-btn" class="fa-solid fa-bars"></div>
         <a href="#" class="logo">Coffee <i class="fa-solid fa-mug-hot"></i></a>
         <nav class="navbar">
             <a href="#home">Home</a>
@@ -206,13 +208,14 @@
                     <span>Happy Client</span>
                 </div>
             </div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
     <!-- review section ends here  -->
 
     <!-- book section starts here  -->
     <section class="book" id="book">
-        <h1 class="hearing">book <span>now</span></h1>
+        <h1 class="heading">Now!! <span>Book</span></h1>
         <form action="">
             <input type="text" placeholder="Name" class="box">
             <input type="email" placeholder="Email" class="box">
@@ -224,12 +227,14 @@
     <!-- book section ends here  -->
 
     <!-- footer section starts here  -->
-     <section class="footer">
+    <section class="footer">
         <div class="footer-container">
             <p>Made with <i class="fa-solid fa-heart"></i> by Jessica Dziedzorm</p>
         </div>
-     </section>
+    </section>
     <!-- footer section ends here  -->
+    <script src="https://unpkg.com/swiper@11.0.4/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
+
 </html>
